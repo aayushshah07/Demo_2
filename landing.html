@@ -91,7 +91,7 @@ function draw()
 			location.reload();//reload the page 
 		}
 
-		if(pipe[i].x == 5)
+		if(pipe[i].x == 6)
 			{
 				score++;
 				scre.play();	
@@ -101,7 +101,7 @@ function draw()
 	bY+=gravity;
 
 	ctx.fillStyle="#000";
-	ctx.font="20px Verdana";
+	ctx.font="30px Verdana";
 	ctx.fillText("Score: "+score,10,canvas.height-20);
 	requestAnimationFrame(draw);
 }
